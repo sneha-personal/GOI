@@ -1,0 +1,142 @@
+.root 
+{
+	--color: #333;
+}
+.root1
+{
+	--color1: #c68c53;
+}
+body 
+{ 
+font-family: "Red Hat Text", "sans-serif";
+}
+.font
+{
+	font-family: "Red Hat Text", "sans-serif";
+	font-weight: bold;
+}
+.container 
+{
+	text-align: center;
+	color: var(--color1);
+	width: 100%;
+	min-height: 100vh;
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	justify-content: center; 
+	background-image: url(https://i.pinimg.com/originals/1e/c5/2b/1ec52b3b67c8a5d5e60f4ba7a43d2e0b.jpg);
+	background-size: cover; 
+	background-position: center;
+	background-attachment: fixed;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1
+{
+	font-weight: 700;
+	font-size: 3rem;
+	color:var(--color1);
+}
+p
+{
+	max-width: 52ch;
+	line-height: 1.5;
+	padding: 1em;
+} 
+a
+{
+    display: inline-block;
+    padding: 1em;
+    background-color: #333; 
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 10;
+    letter-spacing: 0.5px;
+    font-size: 0.875rem;
+}
+.blank1
+{
+	width: 100%;
+	min-height: 60vh;
+	color:white;
+	background-color: #333;
+}
+
+.second
+{
+	background-attachment: fixed;
+	height: 1200px;
+	flex-direction: row-reverse;
+	grid-gap: 1.6em;
+} 
+
+h3 
+{
+	font-weight: 700;
+	font-size: 1.6res;
+	margin-top: 1em;
+}
+.card
+{
+	margin-bottom: 2em;
+}
+
+ .item 
+ {
+	 display: flex;
+	 max-width: 320px;
+	 background-color: white;
+	 flex-direction: column;
+	 align-items: center;
+	 border-radius: 0.5em;
+	 -webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0,0.43);
+	 -moz-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0,0.43);
+	 box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+}
+
+.img 
+{
+	width: 90%;
+	height: 200px;
+	background-color: lightgrey; 
+	background-size: cover;
+	background-position: center; 
+	margin-top: 20px;
+	border-radius: 0.3em;
+}
+
+.img-first 
+{
+	background-image: url(https://www.ritiriwaz.com/wp-content/uploads/2019/05/Bihar-Culture-1.jpg);
+}
+
+.img-second
+{
+	background-image: url(https://www.ritiriwaz.com/wp-content/uploads/2019/11/Jharkhand-Culture.jpg); 
+}
+
+.img-third 
+{
+	background-image: url(https://www.ritiriwaz.com/wp-content/uploads/2018/06/Odisha-1.jpg);
+}
+.img-fourth 
+{
+	background-image: url(https://www.ritiriwaz.com/wp-content/uploads/2018/05/West-Bengal-Culture.jpg);
+}
+
+.img-fifth
+{
+	background-image: url(https://www.ritiriwaz.com/wp-content/uploads/2018/11/Andaman-Nicobar-Islands-Culture.jpg); 
+}
+
+.img-sixth 
+{
+	background-image: url(https://www.ritiriwaz.com/wp-content/uploads/2020/04/Lakshadweep-Culture.jpg);
+}

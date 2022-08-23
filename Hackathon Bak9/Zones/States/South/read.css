@@ -1,0 +1,25 @@
+.moreText {
+ display: none;
+  }
+.read-more-btn {
+    display: inline-block;
+    padding: 1em;
+    background-color: #333; 
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 10;
+    letter-spacing: 0.5px;
+    font-size: 0.875rem;
+    cursor: pointer;
+} 
+.text.show-more .moreText { 
+	display: inline;
+}
+.text.show-more .dots { 
+	display: none;
+}
+
+
+

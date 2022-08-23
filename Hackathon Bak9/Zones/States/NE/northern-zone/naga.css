@@ -1,0 +1,171 @@
+﻿.root 
+{
+	--color: #333;
+}
+.root1
+{
+	--color1: #c68c53;
+}
+body 
+{ 
+font-family: "Red Hat Text", "sans-serif";
+}
+.font
+{
+	font-family: "Red Hat Text", "sans-serif";
+	font-weight: bold;
+}
+.container 
+{
+	text-align: center;
+	color: var(--color1);
+	width: 100%;
+	min-height: 100vh;
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url(https://cdn4.vectorstock.com/i/1000x1000/09/13/background-template-with-mandala-pattern-design-vector-31220913.jpg); 
+	background-size: cover; 
+	background-position: center;
+	background-attachment: fixed;
+}
+h1
+{
+	font-weight: 700;
+	font-size: 3rem;
+	color:var(--color1);
+}
+p
+{
+	max-width: 52ch;
+	line-height: 1.5;
+	padding: 1em;
+} 
+a
+{
+    display: inline-block;
+    padding: 1em;
+    background-color: #333; 
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 10;
+    letter-spacing: 0.5px;
+    font-size: 0.875rem;
+}
+.blank1
+{
+	width: 100%;
+	min-height: 60vh;
+	color:white;
+	background-color: #333;
+}
+
+.second
+{
+	background-attachment: fixed;
+	height: 1200px;
+	flex-direction: row-reverse;
+	grid-gap: 1.6em;
+} 
+
+h3 
+{
+	font-weight: 700;
+	font-size: 1.6res;
+	margin-top: 1em;
+}
+.card
+{
+	margin-bottom: 2em;
+}
+
+ .item 
+ {
+	 display: flex;
+	 max-width: 320px;
+	 background-color: white;
+	 flex-direction: column;
+	 align-items: center;
+	 border-radius: 0.5em;
+	 -webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0,0.43);
+	 -moz-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0,0.43);
+	 box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+}
+
+.img 
+{
+	width: 90%;
+	height: 200px;
+	background-color: lightgrey; 
+	background-size: cover;
+	background-position: center; 
+	margin-top: 20px;
+	border-radius: 0.3em;
+}
+.imggal 
+{
+	width: 30%;
+	height: 100px;
+	background-color: lightgrey; 
+	background-size: cover;
+	background-position: center; 
+	margin-top: 20px;
+	border-radius: 0.3em;
+}
+.img-first 
+{
+	background-image: url(fifth.jpg);
+}
+
+.img-second
+{
+	background-image: url(https://www.rajras.in/wp-content/uploads/2020/02/Indian-Economy.jpeg); 
+}
+
+.img-third 
+{
+	background-image: url(https://wnews247.com/wp-content/uploads/2022/05/noaa1019.jpg);
+}
+.img-fourth 
+{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4b/Satellite_Map_of_Bihar.jpg);
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container1 {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+

@@ -1,0 +1,134 @@
+* {
+     box-sizing: border-box;
+}
+h1{
+	font-family: "Red Hat Text", "sans-serif";
+	color: #e68a00;
+	font-weight: 700;
+	font-size: 3rem;
+}
+ body {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     height: calc(max(100vh, 400px));
+     padding: 100px;
+     color: #222;
+     font-family: &#34;
+    Plus Jakarta Sans&#34;
+    , sans-serif;
+	background-image: url(https://t3.ftcdn.net/jpg/03/09/52/30/360_F_309523074_M0xUltooyMp4cY4RkoI89w0aRfiiHMCU.jpg);
+	background-size: cover; 
+	background-position: center;
+	background-attachment: fixed;
+}
+ body article {
+     width: 100%;
+     max-width: 1000px;
+}
+ body article header {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 100%;
+     min-height: 400px;
+     padding: 50px;
+     border-radius: 16px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ body article header .upper-header {
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 20px;
+}
+ 
+}
+ 
+ body article header .lower-header {
+     padding-top: 50px;
+}
+ body article header .lower-header .tags-container {
+     display: flex;
+     align-items: center;
+     opacity: 0.75;
+     margin-bottom: 12px;
+}
+ 
+ body article header .lower-header .title {
+     margin: 20px 0;
+     font-size: 3rem;
+     font-weight: bold;
+     opacity: 0.9;
+}
+ body article header .lower-header .subtitle {
+     width: 50%;
+     margin-top: 10px;
+     opacity: 0.75;
+     line-height: 1.75;
+}
+ body .summary {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+     padding: 30px 50px;
+     border-radius: 16px;
+     box-shadow: 0 0 0 1px #f2f2f2;
+}
+ body .summary .summary-item {
+     width: 100%;
+     padding-right: 20px;
+}
+ body .summary .summary-item .item-title {
+     color: #999;
+}
+ body .summary .summary-item .item-text {
+     margin-top: 12px;
+     font-size: 1.5rem;
+}
+ body .main-article {
+     width: 100%;
+     margin-top: 50px;
+     padding-bottom: 50px;
+     line-height: 1.75;
+}
+ body .main-article h4 {
+     margin-top: 60px;
+     margin-bottom: 20px;
+     font-size: 1.25em;
+}
+ body .main-article p {
+     margin-bottom: 20px;
+     color: #777;
+     font-size: 1.125em;
+}
+ body .main-article blockquote {
+     position: relative;
+     margin: 40px 0;
+     padding: 40px;
+     background-color: #f8f8f8;
+     border-radius: 16px;
+}
+ body .main-article blockquote::before {
+     content: url(&#34;
+    https://icons.craftwork.design/static/media/QuotesFill.f65b03951f44e212816420b00909f4df.svg"
+    );
+     position: absolute;
+     top: -10px;
+     left: -10px;
+     transform: scale(2);
+     opacity: 0.1;
+}
+ body .main-article blockquote::after {
+     content: url(&#34;
+    https://icons.craftwork.design/static/media/QuotesFill.f65b03951f44e212816420b00909f4df.svg"
+    );
+     position: absolute;
+     bottom: -10px;
+     right: -10px;
+     transform: scale(2) rotate(180deg);
+     opacity: 0.1;
+}
+ 

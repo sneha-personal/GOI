@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=1000px, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>About GOI</title>
+		<link rel="icon" href="Icon.png">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link href="https://fonts.googleapis.com/css?family=Cabin Sketch" rel="stylesheet">
+		<script type="text/javascript" src="index.js"></script>
+
+		<style type="text/css">
+			body{
+				font-size: 150%;
+				padding: 1em 10em 0;
+				border: none;
+			}
+		</style>
+	</head>
+	<body>
+
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="topbtn.png" alt="TOP"></button>
+
+		<!-- Go To Top JS Start -->
+		<script type="text/javascript">
+			var mybutton = document.getElementById("myBtn");
+			window.onscroll = function() {scrollFunction()};
+			function scrollFunction() {
+			  if (document.body.scrollTop > 475 || document.documentElement.scrollTop > 475) {
+			    mybutton.style.display = "block";
+			  } else {
+			    mybutton.style.display = "none";
+			  }
+			}
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			}
+		</script>
+		<!-- Go To Top JS End -->
+		
+		<div style="text-align: justify;">
+			<img src="logo.png" class="cimg">
+			<h1 style="text-align: center;">ABOUT US</h1><br>
+			Welcome to the About Us section of the website. The website depicts the rich culture and heritage of India. It spreads awareness and provides knowledge to the people about what India is and what it has accomplished through its heritage, beliefs, and traditions. India is a country where we have Unity in Diversity. This website aims to enrich the feeling of patriotism and love for the nation in people. 
+		</div>
+	</body>
+</html>

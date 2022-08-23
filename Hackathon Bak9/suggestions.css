@@ -1,0 +1,77 @@
+/* Arrows Start */
+/* .arrow {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	margin-bottom: 5px;
+	padding: 3px;
+}
+
+.down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+} */
+/* Arrows End */
+
+.popup {
+	position: relative;
+	/* width: 63vw; */
+	width: 38vw;
+    text-align: justify;
+	/* display: flex; */
+    display: block;
+	cursor: default;
+}
+.cont{
+	padding-left: 1em;
+	padding-top: 0.5em;
+	padding-right: 1em;
+	transition: 0.05s;
+}
+.dropch{
+	/* float: left; */
+	padding-right: 5px;
+	margin-bottom: 6em;
+	font-size: 250%;
+	text-align: justify;
+	line-height: 1;
+	margin: 0.0em 0.5em 0.0em 0;
+}
+.drw{
+	border-radius: 50px;
+	width: 25vw;
+	transition: 0.4s;
+}
+.bor{
+	display: flex;
+	background: #fff;
+	border: 7px solid #000;
+	border-radius: 60px;
+	width: 25vw;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.bor:hover{
+	cursor: default;
+	width: 75%;
+}
+.bor:hover .drw{
+	border-radius: 50px 0 0 50px;
+}
+.cont{
+	visibility: hidden;
+}
+.bor:hover .cont{
+	visibility: visible;
+	animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+p{
+    align-items: center;
+    justify-content: center;
+	margin-left: 1em;
+	/* margin-right: 22em; */
+}
